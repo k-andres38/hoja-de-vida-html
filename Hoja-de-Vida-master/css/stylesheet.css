@@ -1,0 +1,92 @@
+*{
+    color: #ffffff;
+}
+
+div{
+    border-radius: 5px;
+   display: flex;
+ 
+}
+
+#encabezado h1{
+    display: inline-block;
+    font-family: Verdana;
+    float: left;
+    margin-left: 15px;
+    position: relative;
+}
+
+#pie p{
+    display: inline-block;
+    font-family: Cursive;
+    float: right;
+    margin-right: 15px;
+    position: relative;
+}
+
+.izquierda h2{
+    font-family: Courier;
+    text-align: center;
+}
+
+.izquierda p{
+    font-family: Courier;
+    margin-left: 20px;
+}
+
+.derecha h2{
+    font-family: Courier;
+    text-align: center;
+}
+
+.derecha p{
+    font-family: Courier;
+    margin-left: 20px;
+}
+
+ol{
+    font-family: Courier;
+    margin-left: 25px;
+}
+
+#encabezado{
+    background-color: #515151;
+    border: 2px solid #000000;
+    display: inline-block;
+    height: 70px;
+    margin-left: 100px;
+    position: fixed;
+    width: 1067px;
+    z-index: 1;
+}
+
+.izquierda{
+    background-color: #a89494;
+    display: inline-block;
+    float: left;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 90px;
+    width: 500px;
+}
+
+.derecha{
+    background-color: #8daeb2;
+    display: inline-block;
+    float: right;
+    height: 500px;
+    margin-right: 100px;
+    margin-top: 90px;
+    width: 500px;
+}
+
+#pie{
+    background-color: #824646;
+    border: 2px solid #000000;
+    clear: both;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 10px;
+    height: 70px;
+    width: 1067px;
+}
